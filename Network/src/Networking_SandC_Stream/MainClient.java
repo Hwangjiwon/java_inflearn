@@ -41,7 +41,7 @@ public class MainClient {
 				dataOutput.flush();
 
 				String inMsg = dataInput.readUTF();
-				System.out.println("inMsg: " + inMsg);
+				System.out.println("inputMsg: " + inMsg);
 
 				if (outMsg.equals("STOP"))
 					break;
